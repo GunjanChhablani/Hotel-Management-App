@@ -59,7 +59,7 @@ fhini=open('HotelCustomerData2.log','a')
 fhini.close()
 fhi=open("HotelData.log",'r')
 k=fhi.readline()
-CreditsLabel=Label(MainFrame,bg="#CE9CC0",text="Made By - \n Tanmay Jain \n Shreyasi Barman \n Gunjan Chhablani")
+CreditsLabel=Label(MainFrame,bg="#CE9CC0",text="Made By - \n Gunjan Chhablani")
 CreditsLabel.place(x=350,y=350)
 def getHotelName():
     global HotelN
